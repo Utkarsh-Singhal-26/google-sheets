@@ -11,6 +11,9 @@ dependencies:
   react-dom:
     specifier: ^18.2.0
     version: 18.2.0(react@18.2.0)
+  tabletop.js:
+    specifier: ^1.0.0
+    version: 1.0.0
 
 devDependencies:
   '@types/react':
@@ -1747,6 +1750,10 @@ packages:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
     dev: true
 
+  /lodash@3.10.1:
+    resolution: {integrity: sha512-9mDDwqVIma6OZX79ZlDACZl8sBm0TEnkf99zV3iMA4GzkIT/9hiqP5mY0HoT1iNLCrKc/R1HByV+yJfRWVJryQ==}
+    dev: false
+
   /loose-envify@1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
     hasBin: true
@@ -1758,6 +1765,13 @@ packages:
     dependencies:
       yallist: 3.1.1
     dev: true
+
+  /machina@1.1.2:
+    resolution: {integrity: sha512-CF7XZOnnI+CTif9KVJ1LhnkG5jCyejoNAuK4FI7wees/MarwTI7mFiSkVuiRrPg0SuexXk76czfKMcb+r3v8MA==}
+    engines: {node: '>=0.4.0'}
+    dependencies:
+      lodash: 3.10.1
+    dev: false
 
   /minimatch@3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
@@ -2175,6 +2189,12 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
     dev: true
+
+  /tabletop.js@1.0.0:
+    resolution: {integrity: sha512-U4SH2yVbO2HZxrb24GqYggiJNnMLp2hQw5mEE9bZ92a+EmZP3mNhZ8GEZywbp40lb+c9aRDmxG1TZD5PBAlLuw==}
+    dependencies:
+      machina: 1.1.2
+    dev: false
 
   /text-table@0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}

@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
+.env
 react-sheets-2604-dd08fd5fa326.json
 
 # Editor directories and files
